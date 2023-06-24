@@ -6,13 +6,10 @@ DNA methylation has been identified to be widely associated to complex diseases.
 *DISCLAIMER*: *The choices in some passages were made for educational purposes only*
 
 ## WORKFLOW
-* Importing Data
-* Quality Control
-  Perform data quality assessment to identify any potential issues or biases in the raw data.
-* Within-array normalization
-  Apply normalization techniques to minimize technical variations and batch effects within and across samples.
-* Differential methylation analysis
-  Identify differentially methylated regions (DMRs) or individual CpG sites associated with various conditions or phenotypes of interest.
+* **Importing Data**
+* **Quality Control**: Perform data quality assessment to identify any potential issues or biases in the raw data.
+* **Within-array normalization**: apply normalization techniques to minimize technical variations and batch effects within and across samples.
+* **Differential methylation analysis**: Identify differentially methylated regions (DMRs) or individual CpG sites associated with various conditions or phenotypes of interest.
 
 
 

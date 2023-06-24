@@ -1,7 +1,19 @@
 # DNA Methylation Analysis Pipeline for Infinium Data
 
-This pipeline is designed to analyze DNA methylation data generated from the Illumina HumanMethylation450 Beadchip for the DNA/RNA Dynamics  project (MSc Bioinformatics, University of Bologna).
+This is the DNA/RNA Dynamics exam project (MSc Bioinformatics, University of Bologna), which aims to analyze DNA methylation data generated from the Illumina HumanMethylation450 Beadchip.
 DNA methylation has been identified to be widely associated to complex diseases. Among biological platforms to profile DNA methylation in human, the Illumina Infinium HumanMethylation450 BeadChip (450K) has been accepted as one of the most efficient technologies. 
+
+*DISCLAIMER*: *The choices in some passages were made for educational purposes only*
+
+## WORKFLOW
+* Importing Data
+* Quality Control
+  Perform data quality assessment to identify any potential issues or biases in the raw data.
+* Within-array normalization
+  Apply normalization techniques to minimize technical variations and batch effects within and across samples.
+* Differential methylation analysis
+  Identify differentially methylated regions (DMRs) or individual CpG sites associated with various conditions or phenotypes of interest.
+
 
 
 ## Installation and Dependencies

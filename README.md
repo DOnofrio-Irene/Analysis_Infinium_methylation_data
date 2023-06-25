@@ -41,4 +41,7 @@ install.packages("qqman")
 
 # gplots
 install.packages("gplots")
+
+# viridis
+install.packages("viridis")
 ```

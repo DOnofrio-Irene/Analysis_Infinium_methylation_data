@@ -3,7 +3,7 @@
 This is the DNA/RNA Dynamics exam project (MSc Bioinformatics, University of Bologna), which aims to analyze DNA methylation data generated from the Illumina HumanMethylation450 Beadchip.
 DNA methylation has been identified to be widely associated to complex diseases. Among biological platforms to profile DNA methylation in human, the Illumina Infinium HumanMethylation450 BeadChip (450K) has been accepted as one of the most efficient technologies. 
 
-*DISCLAIMER*: *The choices in some passages (i.e. choice of the statistical test) were made for educational purposes only*
+*DISCLAIMER*: *The choices in some passages (i.e. choice of the statistical test or of the significance threshold) were made for educational purposes only*
 
 
 ## Installation and Dependencies

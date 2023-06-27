@@ -5,14 +5,6 @@ DNA methylation has been identified to be widely associated to complex diseases.
 
 *DISCLAIMER*: *The choices in some passages (i.e. choice of the statistical test) were made for educational purposes only*
 
-## WORKFLOW
-* **Importing Data**
-* **Quality Control**: Perform data quality assessment to identify any potential issues or biases in the raw data.
-* **Between-array normalization**: apply normalization techniques to minimize technical variations and batch effects within and across samples.
-* **Differential methylation analysis**: Identify differentially methylated regions (DMRs) or individual CpG sites associated with various conditions or phenotypes of interest.
-*  **Multiple test correction**
-
-
 
 ## Installation and Dependencies
 This pipeline was runned in R (4.3.0 (2023-04-21 ucrt)).
@@ -56,3 +48,5 @@ The manifest was then cleaned, by removing the control and the rs probes in the 
 ```r
 Illumina450Manifest_clean <- Illumina450Manifest[!Illumina450Manifest$IlmnID %in% notMappedToCHR$IlmnID,]
 ```
+
+## WORKFLOW

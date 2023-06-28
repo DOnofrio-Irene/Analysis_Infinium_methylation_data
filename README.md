@@ -697,7 +697,7 @@ input_Manhattan$CHR <- as.numeric(as.character(input_Manhattan$CHR))
 ```
 
 ``` r
-manhattan(input_Manhattan, snp="ID",chr="CHR", bp="MAPINFO", p="PVAL",annotatePval = FALSE,col=rainbow(24), annotateTop = F)
+manhattan(input_Manhattan, snp="ID",chr="CHR", bp="MAPINFO", p="PVAL",suggestiveline = -log10(0.05),col=rainbow(24), annotateTop = F)
 ```
 
 <img src="project_files/figure-gfm/unnamed-chunk-22-1.png" style="display: block; margin: auto;" />

@@ -258,7 +258,7 @@ levels(input_Manhattan$CHR)[levels(input_Manhattan$CHR) == "Y"] <- "24"
 input_Manhattan$CHR <- as.numeric(as.character(input_Manhattan$CHR))
 
 
-manhattan(input_Manhattan, snp="ID",chr="CHR", bp="MAPINFO", p="PVAL",annotatePval = FALSE,col=rainbow(24), annotateTop = F)
+manhattan(input_Manhattan, snp="ID",chr="CHR", bp="MAPINFO", p="PVAL",suggestiveline= -log10(0.05),col=rainbow(24), annotateTop = F)
 
 
 library(gplots)

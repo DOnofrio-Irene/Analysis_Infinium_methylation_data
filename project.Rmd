@@ -428,7 +428,7 @@ input_Manhattan$CHR <- as.numeric(as.character(input_Manhattan$CHR))
 
 ```{r, fig.align='center', fig.height=8, fig.width=16, message=FALSE, warning=FALSE}
 manhattan(input_Manhattan, snp="ID",chr="CHR", bp="MAPINFO", p="PVAL", suggestiveline = -log10(0.05),col=rainbow(24), annotateTop = F)
-?manhattan
+
 
 ```
 
